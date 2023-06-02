@@ -1,0 +1,67 @@
+{
+  "_from": "ngx-trim-directive@1.1.0",
+  "_id": "ngx-trim-directive@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-czY8oy4oDPYzz2Umc1cVal3tPYIAduW0yHlTHYABWtqwTSBe3/1apvkkUmQou6Eqm7WJh7qxb0N6K/7Xqel/1g==",
+  "_location": "/ngx-trim-directive",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ngx-trim-directive@1.1.0",
+    "name": "ngx-trim-directive",
+    "escapedName": "ngx-trim-directive",
+    "rawSpec": "1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "1.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ngx-trim-directive/-/ngx-trim-directive-1.1.0.tgz",
+  "_shasum": "028f0963486efd19298c39f09805e52e332223ba",
+  "_spec": "ngx-trim-directive@1.1.0",
+  "_where": "D:\\workspace\\Angular\\sysmex-ui",
+  "author": {
+    "name": "KingMario",
+    "email": "gcyyq@hotmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/KingMario/packages/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "deprecated": false,
+  "description": "This directive helps to trim whitespaces of an input text value.",
+  "es2015": "fesm2015/ngx-trim-directive.js",
+  "esm2015": "esm2015/ngx-trim-directive.js",
+  "esm5": "esm5/ngx-trim-directive.js",
+  "fesm2015": "fesm2015/ngx-trim-directive.js",
+  "fesm5": "fesm5/ngx-trim-directive.js",
+  "homepage": "https://github.com/KingMario/packages#readme",
+  "keywords": [
+    "angular",
+    "trim",
+    "directive",
+    "input",
+    "blur"
+  ],
+  "license": "MIT",
+  "main": "bundles/ngx-trim-directive.umd.js",
+  "metadata": "ngx-trim-directive.metadata.json",
+  "module": "fesm5/ngx-trim-directive.js",
+  "name": "ngx-trim-directive",
+  "peerDependencies": {
+    "@angular/common": ">= 5.0.0",
+    "@angular/core": ">= 5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KingMario/packages.git"
+  },
+  "sideEffects": false,
+  "typings": "ngx-trim-directive.d.ts",
+  "version": "1.1.0"
+}

@@ -1,0 +1,102 @@
+{
+  "_from": "libnpmteam@5.0.3",
+  "_id": "libnpmteam@5.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-7XOGhi45s+ml6TyrhJUTyrErcoDMKGKfEtiTEco4ofU7BGGAUOalVztKMVLLJgJOOXdIAIlzCHqkTXEuSiyCiA==",
+  "_location": "/libnpmteam",
+  "_phantomChildren": {
+    "@npmcli/fs": "3.1.0",
+    "@tootallnate/once": "2.0.0",
+    "aggregate-error": "3.1.0",
+    "balanced-match": "1.0.2",
+    "depd": "2.0.0",
+    "encoding": "0.1.13",
+    "foreground-child": "3.1.1",
+    "humanize-ms": "1.2.1",
+    "imurmurhash": "0.1.4",
+    "is-lambda": "1.0.1",
+    "jackspeak": "2.2.1",
+    "minipass-collect": "1.0.2",
+    "minipass-flush": "1.0.5",
+    "minipass-json-stream": "1.0.1",
+    "minipass-pipeline": "1.2.4",
+    "minipass-sized": "1.0.3",
+    "negotiator": "0.6.3",
+    "path-scurry": "1.9.2",
+    "proc-log": "3.0.0",
+    "smart-buffer": "4.2.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "libnpmteam@5.0.3",
+    "name": "libnpmteam",
+    "escapedName": "libnpmteam",
+    "rawSpec": "5.0.3",
+    "saveSpec": null,
+    "fetchSpec": "5.0.3"
+  },
+  "_requiredBy": [
+    "/npm"
+  ],
+  "_resolved": "https://registry.npmjs.org/libnpmteam/-/libnpmteam-5.0.3.tgz",
+  "_shasum": "196657e9d87c0cc914c44fee588ad2b838074a3c",
+  "_spec": "libnpmteam@5.0.3",
+  "_where": "D:\\workspace\\Angular\\sysmex-ui\\node_modules\\npm",
+  "author": {
+    "name": "GitHub Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/npm/cli/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "aproba": "^2.0.0",
+    "npm-registry-fetch": "^14.0.3"
+  },
+  "deprecated": false,
+  "description": "npm Team management APIs",
+  "devDependencies": {
+    "@npmcli/eslint-config": "^4.0.0",
+    "@npmcli/template-oss": "4.11.4",
+    "nock": "^13.3.0",
+    "tap": "^16.3.4"
+  },
+  "engines": {
+    "node": "^14.17.0 || ^16.13.0 || >=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "homepage": "https://npmjs.com/package/libnpmteam",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "libnpmteam",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/cli.git",
+    "directory": "workspaces/libnpmteam"
+  },
+  "scripts": {
+    "lint": "eslint \"**/*.js\"",
+    "lintfix": "node ../.. run lint -- --fix",
+    "postlint": "template-oss-check",
+    "posttest": "node ../.. run lint",
+    "snap": "tap",
+    "template-oss-apply": "template-oss-apply --force",
+    "test": "tap"
+  },
+  "tap": {
+    "nyc-arg": [
+      "--exclude",
+      "tap-snapshots/**"
+    ]
+  },
+  "templateOSS": {
+    "//@npmcli/template-oss": "This file is partially managed by @npmcli/template-oss. Edits may be overwritten.",
+    "version": "4.11.4",
+    "content": "../../scripts/template-oss/index.js"
+  },
+  "version": "5.0.3"
+}

@@ -1,0 +1,119 @@
+{
+  "_from": "libnpmpack@5.0.17",
+  "_id": "libnpmpack@5.0.17",
+  "_inBundle": false,
+  "_integrity": "sha512-JvYZc3lLnZcbcmG9vOnbvGMd4Qfu4fQTi9zGlGn0KOUKUsWvkUGJYQwVHiW0/6r1yyn8kQ7/tCPj2+Ubz1njtQ==",
+  "_location": "/libnpmpack",
+  "_phantomChildren": {
+    "@npmcli/fs": "3.1.0",
+    "@npmcli/git": "4.0.4",
+    "@npmcli/installed-package-contents": "2.0.2",
+    "@npmcli/promise-spawn": "6.0.2",
+    "@npmcli/run-script": "6.0.2",
+    "@tootallnate/once": "2.0.0",
+    "aggregate-error": "3.1.0",
+    "balanced-match": "1.0.2",
+    "depd": "2.0.0",
+    "encoding": "0.1.13",
+    "foreground-child": "3.1.1",
+    "humanize-ms": "1.2.1",
+    "imurmurhash": "0.1.4",
+    "is-lambda": "1.0.1",
+    "jackspeak": "2.2.1",
+    "minipass-collect": "1.0.2",
+    "minipass-flush": "1.0.5",
+    "minipass-json-stream": "1.0.1",
+    "minipass-pipeline": "1.2.4",
+    "minipass-sized": "1.0.3",
+    "negotiator": "0.6.3",
+    "npm-install-checks": "6.1.1",
+    "path-scurry": "1.9.2",
+    "proc-log": "3.0.0",
+    "read-package-json": "6.0.3",
+    "read-package-json-fast": "3.0.2",
+    "sigstore": "1.5.2",
+    "smart-buffer": "4.2.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "libnpmpack@5.0.17",
+    "name": "libnpmpack",
+    "escapedName": "libnpmpack",
+    "rawSpec": "5.0.17",
+    "saveSpec": null,
+    "fetchSpec": "5.0.17"
+  },
+  "_requiredBy": [
+    "/npm"
+  ],
+  "_resolved": "https://registry.npmjs.org/libnpmpack/-/libnpmpack-5.0.17.tgz",
+  "_shasum": "b73e16bd0ee6486b35ea69cb566131f8d0f32ce2",
+  "_spec": "libnpmpack@5.0.17",
+  "_where": "D:\\workspace\\Angular\\sysmex-ui\\node_modules\\npm",
+  "author": {
+    "name": "GitHub Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/npm/libnpmpack/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Claudia Hernández",
+      "email": "claudia@npmjs.com"
+    }
+  ],
+  "dependencies": {
+    "@npmcli/arborist": "^6.2.9",
+    "@npmcli/run-script": "^6.0.0",
+    "npm-package-arg": "^10.1.0",
+    "pacote": "^15.0.8"
+  },
+  "deprecated": false,
+  "description": "Programmatic API for the bits behind npm pack",
+  "devDependencies": {
+    "@npmcli/eslint-config": "^4.0.0",
+    "@npmcli/template-oss": "4.14.1",
+    "nock": "^13.3.0",
+    "spawk": "^1.7.1",
+    "tap": "^16.3.4"
+  },
+  "engines": {
+    "node": "^14.17.0 || ^16.13.0 || >=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "homepage": "https://npmjs.com/package/libnpmpack",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "libnpmpack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/cli.git",
+    "directory": "workspaces/libnpmpack"
+  },
+  "scripts": {
+    "lint": "eslint \"**/*.js\"",
+    "lintfix": "node ../.. run lint -- --fix",
+    "postlint": "template-oss-check",
+    "posttest": "node ../.. run lint",
+    "snap": "tap",
+    "template-oss-apply": "template-oss-apply --force",
+    "test": "tap"
+  },
+  "tap": {
+    "nyc-arg": [
+      "--exclude",
+      "tap-snapshots/**"
+    ]
+  },
+  "templateOSS": {
+    "//@npmcli/template-oss": "This file is partially managed by @npmcli/template-oss. Edits may be overwritten.",
+    "version": "4.14.1",
+    "content": "../../scripts/template-oss/index.js"
+  },
+  "version": "5.0.17"
+}

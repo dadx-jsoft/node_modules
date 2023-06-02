@@ -1,0 +1,94 @@
+{
+  "_from": "libnpmfund@4.0.17",
+  "_id": "libnpmfund@4.0.17",
+  "_inBundle": false,
+  "_integrity": "sha512-7cOf67KxpSNK/g5mWy3LWojxgXwuXHw62gGyeDSH7wVOUahD9pZPKqt5jwHtfiFgSOe9Lf51lcVIaeAS3wekqg==",
+  "_location": "/libnpmfund",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "libnpmfund@4.0.17",
+    "name": "libnpmfund",
+    "escapedName": "libnpmfund",
+    "rawSpec": "4.0.17",
+    "saveSpec": null,
+    "fetchSpec": "4.0.17"
+  },
+  "_requiredBy": [
+    "/npm"
+  ],
+  "_resolved": "https://registry.npmjs.org/libnpmfund/-/libnpmfund-4.0.17.tgz",
+  "_shasum": "200dd7867c156b1ef2a2d9898a0c4a3afc90657b",
+  "_spec": "libnpmfund@4.0.17",
+  "_where": "D:\\workspace\\Angular\\sysmex-ui\\node_modules\\npm",
+  "author": {
+    "name": "GitHub Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/npm/cli/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Ruy Adorno",
+      "url": "https://ruyadorno.com"
+    }
+  ],
+  "dependencies": {
+    "@npmcli/arborist": "^6.2.9"
+  },
+  "deprecated": false,
+  "description": "Programmatic API for npm fund",
+  "devDependencies": {
+    "@npmcli/eslint-config": "^4.0.0",
+    "@npmcli/template-oss": "4.14.1",
+    "tap": "^16.3.4"
+  },
+  "engines": {
+    "node": "^14.17.0 || ^16.13.0 || >=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "homepage": "https://github.com/npm/cli#readme",
+  "keywords": [
+    "npm",
+    "npmcli",
+    "libnpm",
+    "cli",
+    "git",
+    "fund",
+    "gitfund"
+  ],
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "libnpmfund",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/cli.git",
+    "directory": "workspaces/libnpmfund"
+  },
+  "scripts": {
+    "lint": "eslint \"**/*.js\"",
+    "lintfix": "node ../.. run lint -- --fix",
+    "postlint": "template-oss-check",
+    "posttest": "node ../.. run lint",
+    "snap": "tap",
+    "template-oss-apply": "template-oss-apply --force",
+    "test": "tap"
+  },
+  "tap": {
+    "nyc-arg": [
+      "--exclude",
+      "tap-snapshots/**"
+    ]
+  },
+  "templateOSS": {
+    "//@npmcli/template-oss": "This file is partially managed by @npmcli/template-oss. Edits may be overwritten.",
+    "version": "4.14.1",
+    "content": "../../scripts/template-oss/index.js"
+  },
+  "version": "4.0.17"
+}
